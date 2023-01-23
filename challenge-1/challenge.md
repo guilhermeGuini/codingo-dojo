@@ -6,7 +6,7 @@
 
 Deve ser construído um algoritmo que possibilite a realização de uma venda, sendo que:
 
-1. Ao realizar a venda deve-se descontar a taxa alelo no valor de R$ 0.75;
+1. Ao realizar a venda deve-se descontar uma taxa no valor de R$ 0.75;
 2. Deve-se armazenar o valor da venda no saldo do estabelecimento
 
 ### Parte 2
