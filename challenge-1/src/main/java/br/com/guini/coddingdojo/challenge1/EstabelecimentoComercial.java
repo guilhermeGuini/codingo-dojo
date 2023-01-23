@@ -11,7 +11,7 @@ public class EstabelecimentoComercial {
 
     private BigDecimal totalVendasAReceber;
     private BigDecimal totalDeAjustes;
-    private BigDecimal descontoAlelo = BigDecimal.ZERO;
+    private BigDecimal desconto = BigDecimal.ZERO;
 
     public EstabelecimentoComercial(BigDecimal totalVendasAReceber, BigDecimal totalDeAjustes) {
         this.totalVendasAReceber = totalVendasAReceber;
@@ -34,8 +34,8 @@ public class EstabelecimentoComercial {
         throw new UnsupportedOperationException();
     }
 
-    public BigDecimal getDescontoAlelo() {
-        return descontoAlelo;
+    public BigDecimal getDesconto() {
+        return desconto;
     }
 
     public boolean isDebitBalance() {
